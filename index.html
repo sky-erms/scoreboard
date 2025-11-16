@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-counter">0</h2>
+                <div class="button-cluster">
+                    <button onclick="addPoints('home-counter', 1)">+1</button>
+                    <button onclick="addPoints('home-counter', 2)">+2</button>
+                    <button onclick="addPoints('home-counter', 3)">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-counter">0</h2>
+                <div class="button-cluster">
+                    <button onclick="addPoints('guest-counter', 1)">+1</button>
+                    <button onclick="addPoints('guest-counter', 2)">+2</button>
+                    <button onclick="addPoints('guest-counter', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
